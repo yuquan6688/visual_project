@@ -1,0 +1,25 @@
+---
+title: "Proposal"
+description: ""
+format: html
+editor: visual
+execute: 
+  eval: true
+  echo: true
+  warning: false
+  freeze: true
+---
+
+# Motivation
+
+# Objectives
+
+# Data
+
+# Methodology
+
+# Prototype Sketches
+
+# R Packages
+
+# Project Schedule

@@ -1,16 +1,23 @@
 [
   {
+    "objectID": "Proposal/proposal.html",
+    "href": "Proposal/proposal.html",
+    "title": "Proposal",
+    "section": "",
+    "text": "Motivation\n\n\nObjectives\n\n\nData\n\n\nMethodology\n\n\nPrototype Sketches\n\n\nR Packages\n\n\nProject Schedule"
+  },
+  {
+    "objectID": "Meeting_Minutes/meeting_minutes.html",
+    "href": "Meeting_Minutes/meeting_minutes.html",
+    "title": "Meeting Minutes",
+    "section": "",
+    "text": "Project Meeting 1"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "visual_project",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
   }
 ]
