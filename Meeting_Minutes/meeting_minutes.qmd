@@ -10,4 +10,134 @@ execute:
   freeze: true
 ---
 
-# Project Meeting 1
+# Meeting Minutes 1
+
+::: callout-note
+This is just a short meeting after class.
+:::
+
+Date: 24 May 2025 (Saturday)
+
+Time: 4pm
+
+Attendees: Tai QiuYan, Li Yuquan, Do Quynh Trang
+
+## Agenda
+
+1.  Discuss the selection of the project topic
+
+2.  Make a decision on the topic
+
+3.  Discuss follow-up preparations and research plans
+
+## Discussion for Agenda 1
+
+Before the meeting, we had reviewed the three topics from the VAST Challenge 2025, formed our own understanding, and discussed based on that.
+
+Trang pointed out that since Prof. Kam had covered data processing and EDA for MC1 in class, it would be easier for us to understand and continue with. Therefore, she preferred to choose MC1 as our project topic.
+
+Yuquan expressed that although we had some exposure to MC1 in class, its focus on art-related issues made it less intuitive. He was more interested in the theme of MC3.
+
+Trang responded that MC3 has four sub-questions, which may be difficult to distribute among three members. She also felt that MC3 might be more challenging than MC1.
+
+Qiuyan stated that although MC3 might be slightly more difficult, choosing it would avoid overlap with other groups since Prof. Kam had only discussed MC1 in class.
+
+Yuquan added that he had already started working on MC3 previously and had built some foundation in data processing. He felt that MC3 was not significantly more difficult than MC1 based on his experience.
+
+## Discussion for Agenda 2
+
+Trang said that based on the input from Yuquan and Qiuyan, she was open to selecting MC3. However, this might require us to collaboratively complete the extra sub-question, or alternatively, each member could handle two sub-questions as part of Take-home 2.
+
+Qiuyan commented that this would require additional time to understand and explore, and it may not be feasible to complete all sub-questions in Take-home 2, but we can try our best.
+
+Eventually, after discussion and a vote, we decided to choose MC3 as the topic for our project.
+
+## Discussion for Agenda 3
+
+Qiuyan suggested that after completing Take-home 2, we could summarize any difficulties we encountered and consult with Prof. Kam to improve our project.
+
+Yuquan proposed that we wait for Prof. Kam to upload the MC3 data exploration content before moving forward with in-depth study and discussion.
+
+Trang emphasized that we should standardize our data processing workflow so that our individual parts can be better integrated into the Shiny App.
+
+## Decision
+
+After discussion, the group decided to select MC3 from the VAST Challenge 2025 as the topic for our project.
+
+## Next Steps
+
+After completing Take-home 2, we will conduct a more detailed discussion on the project, including division of work, implementation goals, and other key elements.
+
+# Meeting Minutes 2
+
+Date: 3 June 2025 (Tuesday)
+
+Time: 8:00pm
+
+Attendees: Tai QiuYan, Li Yuquan, Do Quynh Trang
+
+## Agenda
+
+1.  Discussion on Take-Home Exercise 3
+
+2.  Discussion on integrating content from Take-Home Exercise 2
+
+3.  Discussion on the expected output of the final Shiny App
+
+4.  Discussion on Proposal structure and division of labor
+
+## Discussion for Agenda 1
+
+YuQuan raised questions about the scope and deliverables for Take-Home Exercise 3.
+
+Trang responded that each member could independently design an analytical storyboard as a project prototype, and we could build on the data wrangling code provided in the MC3 kick-starter.
+
+Qiuyan noted that she was not entirely sure whether the task required us to convert our Take-Home Exercise 2 results into a Shiny App format and suggested clarifying this with Prof. Kam.
+
+## Discussion for Agenda 2
+
+Trang suggested incorporating selected visualizations from Take-Home Exercise 2 into the Shiny App for Take-Home Exercise 3 to form a more coherent project narrative.
+
+YuQuan mentioned that he had reviewed the sample project “The Big Fish,” which did not separate visuals by question but instead integrated them into a few interactive charts that allow users to filter based on different analytical needs.
+
+Qiuyan proposed that we first review the visualizations from Take-Home Exercise 2 and try to merge them if possible.
+
+The team then reviewed the three analytical questions in Mini-Challenge 3 and discussed how to integrate them into a final cohesive report.
+
+## Discussion for Agenda 3
+
+YuQuan presented his visualization results from Take-Home Exercise 2, showing message distribution across Week 1 and Week 2 and later network analysis. He explained the difference between global and ego-based network metrics.
+
+Trang suggested that YuQuan’s Shiny module include a dropdown or slider to allow users to explore the temporal patterns by week, day, or hour.
+
+Qiuyan presented her own Take-Home 2 visualizations and suggested combining the network graphs from different sub-questions into a unified dashboard, as they share similar structures. This could support a consistent narrative showing the interactions between key entities. She also plans to create a storyboard highlighting the timeline and supporting evidence of Nadia Conti’s illegal activities. However, she noted that some of YuQuan’s visualizations are not network-based and may not fully integrate into the dashboard.
+
+Trang shared her own visualizations and proposed that YuQuan take the lead on message distribution while she focuses on network analysis.
+
+YuQuan responded that his network visualizations filtered out all subtypes and sub-relationships, so he was unsure whether they could be merged with Trang’s network section. The team remained uncertain about how to implement Qiuyan’s suggestion for dashboard integration. They agreed to consult Prof. Kam on Thursday for guidance on combining the network visualizations effectively.
+
+## Discussion for Agenda 4
+
+YuQuan proposed referencing the structure used in the previous year’s proposal “The Big Fish,” which includes sections such as Motivation, Objectives, Data, Methodology, Prototypes, Timeline, Tools, and Expected Outcomes. The team agreed to adopt this structure.
+
+Trang suggested postponing the writing of the Methodology section until after consultation with the professor, given the number of open questions.
+
+Qiuyan pointed out that a new website will be needed to publish the final project. She explained how to collaborate using GitHub: each member should work on separate documents and push updates individually to avoid merge conflicts. She also shared a YouTube tutorial on effective GitHub collaboration.
+
+Trang recommended that group members notify each other via WhatsApp when changes are made to the repository so everyone can pull the latest version.
+
+After the discussion, the following division of labor for the Proposal and Meeting Minutes was made:
+
+| Task                       | OIC              |
+|----------------------------|------------------|
+| Write Minutes of Meeting 1 | QiuYan           |
+| Proposal Writing           | Trang and Yuquan |
+| Build the website & Github | Yuquan           |
+
+
+
+## Next Steps
+
+The next meeting is scheduled for Thursday, 5 June 2025, at 6:30 PM.
+
+After the professor consultation, the team will proceed with finalizing the proposal and project development plan.

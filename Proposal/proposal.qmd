@@ -1,6 +1,6 @@
 ---
-title: "Proposal"
-description: ""
+title: "Project Proposal"
+description: "VAST Challenge 2025 Mini-Challenge 3 (Group 1)"
 format: html
 editor: visual
 execute: 
@@ -12,9 +12,51 @@ execute:
 
 # Motivation
 
+This project is driven by the need to uncover hidden influence and illicit activities within the Oceanus community, amid rising tensions following a crackdown on illegal fishing. As the local economy pivots towards ocean tourism, new complexities have emerged involving celebrities, local officials, conservation groups, and powerful business families.
+
+To investigate these developments, journalist Clepper Jessen compiled a comprehensive knowledge graph based on two weeks of intercepted radio communications. However, the dense web of relationships, pseudonyms, and time-based interactions exceeds the capacity of traditional analytical methods. This project aims to use visual analytics to assist Clepper in identifying key events and relationships among major actors, uncover hidden communication patterns, recognize influential entities, and expose potential misconduct, ultimately revealing the underlying truth behind corruption and manipulation.
+
 # Objectives
 
+This project aims to develop an interactive visual analytics tool to assist Clepper’s investigation by uncovering hidden insights within the communication network. The specific objectives are:
+
+1.  **Identify Communication Patterns and Influence Structures Analyze daily**: communication peaks to detect temporal patterns and observe how they evolve over the two-week period. Centering on key entities, construct influence networks to reveal their roles and upstream/downstream relationships within the communication graph.
+
+2.  **Explore Community Structure**: Detect and visualize tightly connected groups of individuals and vessels, and interpret the dominant topics associated with each group.
+
+3.  **Uncover Pseudonyms and Aliases**: Identify how and when pseudonyms are used, and who they refer to, using entity disambiguation and communication linkage visualizations.
+
+4.  **Track down suspicious individuals**: Focus on the suspect Nadia Conti. By combining her behavioral patterns and communication methods, present visually whether there are any illegal suspicions, and help verify Clepper's investigation leads.
+
 # Data
+
+This project utilizes the dataset from the VAST Challenge 2025 [Mini-Challenge 3](https://vast-challenge.github.io/2025/MC3.html), which consists of two main files: MC3_graph.json and MC3_schema.json.
+
+MC3_graph.json contains the radio communication knowledge graph, consisting of 1,159 nodes and 3,226 edges. The nodes are categorized into three main types: Entity, Event, and Relationship.
+
+MC3_schema.json serves as a reference dictionary to facilitate data parsing and preprocessing. It defines three main categories of nodes: Entity, Event, and Relationship, each containing multiple subtypes. For edge types, the schema lists various edge subtypes and their associated attributes, including description, is_inferred, and types.
+
+## Node Attributes
+
+| **Entity Subtypes** | **Event Subtypes** | **Relationship Subtypes** |
+|---------------------|--------------------|---------------------------|
+| Person              | Monitoring         | AccessPermission          |
+| Organization        | Assessment         | Operates                  |
+| Vessel              | VesselMovement     | Colleagues                |
+| Group               | Enforcement        | Suspicious                |
+| Location            | TourActivity       | Reports                   |
+|                     | Collaborate        | Jurisdiction              |
+|                     | TransponderPing    | Unfriendly                |
+|                     | HarborReport       | Friends                   |
+|                     | Criticize          |                           |
+
+## Edge Attributes
+
+| **Source Node** | **Entity** | **Event** | **Relationship** |
+|----------------|----------------|---------------------|--------------------|
+| **Entity** | — | Entity initiates or participates in an Event | Entity is a source of Relationship |
+| **Event** | Event targets or involves an Entity | **Communication Event** providing evidence for an Event | **Communication Event** providing evidence for a Relationship |
+| **Relationship** | Entity is the target of a relationship | — | — |
 
 # Methodology
 
