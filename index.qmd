@@ -2,7 +2,7 @@
 title: "ISSS608 Group Project --- Evil under the Sea"
 ---
 
-![](images/clipboard-949039460.jpeg)
+<img src="images/clipboard-949039460.jpeg" width="400px" height="300px" style="display: block; margin: auto;">
 
 Our team is developing a visual‐analytics application called **Evil under the Sea** to uncover hidden corruption and illicit networks beneath Oceanus’s thriving tourism industry. Over a two‐week period, investigative journalist Clepper Jessen gathered intercepted radio communications, permit metadata, and event logs that reveal unauthorized reef exploitation, bribery payments, and secret messages using fake names. He organized this information into a knowledge graph with hundreds of “Entity,” “Event,” and “Relationship” nodes. However, its size and complexity obscure the real patterns, making it difficult to trace who is pulling the strings. With Evil under the Sea, we aim to give investigators an intuitive, data‐driven workspace where they can spot suspicious communication spikes, identify tightly wound subgroups, unravel aliases, and see if key suspects—especially Nadia Conti—remain at the heart of Oceanus’s wrongdoing.
 
