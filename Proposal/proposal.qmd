@@ -1,6 +1,7 @@
 ---
 title: "Project Proposal"
-description: "VAST Challenge 2025 Mini-Challenge 3 (Group 1)"
+date: "June 5, 2025"
+date-modified: "last-modified"
 format: html
 editor: visual
 execute: 
@@ -12,29 +13,27 @@ execute:
 
 # Motivation
 
-This project is driven by the need to uncover hidden influence and illicit activities within the Oceanus community, amid rising tensions following a crackdown on illegal fishing. As the local economy pivots towards ocean tourism, new complexities have emerged involving celebrities, local officials, conservation groups, and powerful business families.
+This project seeks to uncover hidden influence and illicit activity within the Oceanus community, where tensions are rising following a government crackdown on illegal fishing. As the local economy shifts toward ocean tourism, new entanglements have emerged involving celebrities, local officials, conservation groups, and powerful business families.
 
-To investigate these developments, journalist Clepper Jessen compiled a comprehensive knowledge graph based on two weeks of intercepted radio communications. However, the dense web of relationships, pseudonyms, and time-based interactions exceeds the capacity of traditional analytical methods. This project aims to use visual analytics to assist Clepper in identifying key events and relationships among major actors, uncover hidden communication patterns, recognize influential entities, and expose potential misconduct, ultimately revealing the underlying truth behind corruption and manipulation.
+To investigate these developments, journalist Clepper Jessen compiled a comprehensive knowledge graph using two weeks of intercepted radio communications. However, the complex web of relationships and time-sensitive interactions surpasses the capabilities of traditional analysis. This project leverages visual analytics to support Clepper in identifying key events, uncovering hidden communication patterns, mapping influential entities, and exposing potential misconduct — ultimately revealing the deeper truths behind corruption and manipulation in Oceanus.
 
 # Objectives
 
-This project aims to develop an interactive visual analytics tool to assist Clepper’s investigation by uncovering hidden insights within the communication network. The specific objectives are:
+This project aims to develop an interactive visual analytics tool to support Clepper’s investigation by uncovering hidden insights within the communication network. The specific objectives are:
 
-1.  **Identify Communication Patterns and Influence Structures Analyze daily**: communication peaks to detect temporal patterns and observe how they evolve over the two-week period. Centering on key entities, construct influence networks to reveal their roles and upstream/downstream relationships within the communication graph.
+-   **Identify Temporal Communication Patterns:** Analyze peaks and fluctuations in communication activity over the two-week period.
 
-2.  **Explore Community Structure**: Detect and visualize tightly connected groups of individuals and vessels, and interpret the dominant topics associated with each group.
+-   **Explore Community Structure:** Detect and visualize tightly connected groups of individuals and vessels. Interpret the dominant communication topics associated with each cluster to understand their purpose and affiliations.
 
-3.  **Uncover Pseudonyms and Aliases**: Identify how and when pseudonyms are used, and who they refer to, using entity disambiguation and communication linkage visualizations.
-
-4.  **Track down suspicious individuals**: Focus on the suspect Nadia Conti. By combining her behavioral patterns and communication methods, present visually whether there are any illegal suspicions, and help verify Clepper's investigation leads.
+-   **Investigate a Suspicious Individual:** Focus on the suspect, Nadia Conti. By examining her ego network, behavioral patterns, and communication methods, visually assess signs of suspicious activity and help validate Clepper’s investigative leads.
 
 # Data
 
 This project utilizes the dataset from the VAST Challenge 2025 [Mini-Challenge 3](https://vast-challenge.github.io/2025/MC3.html), which consists of two main files: MC3_graph.json and MC3_schema.json.
 
-MC3_graph.json contains the radio communication knowledge graph, consisting of 1,159 nodes and 3,226 edges. The nodes are categorized into three main types: Entity, Event, and Relationship.
+The `MC3_graph.json` file contains the radio communication knowledge graph, comprising **1,159 nodes** and **3,226 edges**. The nodes are organized into three main categories: **Entity**, **Event**, and **Relationship**.
 
-MC3_schema.json serves as a reference dictionary to facilitate data parsing and preprocessing. It defines three main categories of nodes: Entity, Event, and Relationship, each containing multiple subtypes. For edge types, the schema lists various edge subtypes and their associated attributes, including description, is_inferred, and types.
+The accompanying `MC3_schema.json` file serves as a reference dictionary to support data parsing and preprocessing. It defines the structure and subtypes for each node category—**Entity**, **Event**, and **Relationship**—and provides a detailed list of edge subtypes. Each edge type includes metadata such as **description**, **is_inferred**, and **associated node types**, enabling a deeper understanding of the graph’s structure and semantics.
 
 ## Node Attributes
 
@@ -52,17 +51,81 @@ MC3_schema.json serves as a reference dictionary to facilitate data parsing and 
 
 ## Edge Attributes
 
-| **Source Node** | **Entity** | **Event** | **Relationship** |
-|----|----|----|----|
-| **Entity** | — | Entity initiates or participates in an Event | Entity is a source of Relationship |
-| **Event** | Event targets or involves an Entity | **Communication Event** providing evidence for an Event | **Communication Event** providing evidence for a Relationship |
-| **Relationship** | Entity is the target of a relationship | — | — |
++------------------+----------------------------------------+---------------------------------------------------------+---------------------------------------------------------------+
+| **Source Node**  | **Entity**                             | **Event**                                               | **Relationship**                                              |
++==================+========================================+=========================================================+===============================================================+
+| **Entity**       | —                                      | Entity initiates or participates in an Event            | Entity is a source of Relationship                            |
++------------------+----------------------------------------+---------------------------------------------------------+---------------------------------------------------------------+
+| **Event**        | Event targets or involves an Entity    | **Communication Event** providing evidence for an Event | **Communication Event** providing evidence for a Relationship |
++------------------+----------------------------------------+---------------------------------------------------------+---------------------------------------------------------------+
+| **Relationship** | Entity is the target of a relationship | —                                                       | —                                                             |
++------------------+----------------------------------------+---------------------------------------------------------+---------------------------------------------------------------+
 
 # Methodology
 
-# Prototype Sketches
++--------------------------------------------+--------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
+| Step                                       | Description                                                                                                  | Outcome                                                                                           |
++============================================+==============================================================================================================+===================================================================================================+
+| 1.  **Data Preparation**                   | Clean and standardize node and edge data, remove duplicates and invalid links, ensure consistent formatting. | Establish a reliable base for analysis.                                                           |
++--------------------------------------------+--------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
+| 2.  **Temporal Analysis**                  | Visualize daily and hourly communication patterns using line charts, heatmaps, and density plots.            | Identify spikes in activity and communication patterns across the two-week period.                |
++--------------------------------------------+--------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
+| 3.  **Network Visualization**              | Construct interactive graphs showing relationships and communication interactions among entities.            | Reveal influential entities and key actors through centrality metrics and co-occurrence patterns. |
++--------------------------------------------+--------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
+| 4.  **Clustering Analysis**                | Apply Louvain method to identify tightly connected groups.                                                   | Detect clusters and their themes.                                                                 |
++--------------------------------------------+--------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
+| 5.  **Suspect Investigation: Nadia Conti** | Build a focused ego network and analyzed her communication and control patterns.                             | Confirm her central role in orchestrating illicit activities. and validate investigative leads.   |
+|                                            |                                                                                                              |                                                                                                   |
+|                                            | Develop a chronological view of Nadia's activities.                                                          |                                                                                                   |
++--------------------------------------------+--------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
+
+# Storyboard
+
++------------+---------------------------------+---------------------------------------------------------------------------------------------+------------------------------------------+
+| Tab/Screen | Title                           | Key features/components                                                                     | User Actions                             |
++============+=================================+=============================================================================================+==========================================+
+| 1          | Overview                        | -   Project objectives and background                                                       | -   Navigate via sidebar                 |
+|            |                                 |                                                                                             |                                          |
+|            |                                 | -   EDA charts                                                                              |                                          |
+|            |                                 |                                                                                             |                                          |
+|            |                                 | -   Insights summary                                                                        |                                          |
++------------+---------------------------------+---------------------------------------------------------------------------------------------+------------------------------------------+
+| 2          | Temporal Communication Analysis | -   Line chart: total messages per day                                                      | -   Filter by date range                 |
+|            |                                 |                                                                                             |                                          |
+|            |                                 | -   Heatmap: hourly message count by day                                                    |                                          |
+|            |                                 |                                                                                             |                                          |
+|            |                                 | -   Density plot: overall hourly message pattern                                            |                                          |
+|            |                                 |                                                                                             |                                          |
+|            |                                 | -   Ridgeline plot: day-wise hourly distribution                                            |                                          |
++------------+---------------------------------+---------------------------------------------------------------------------------------------+------------------------------------------+
+| 3          | Network explorer                | -   Relationship network                                                                    | -   Filter by sub-type                   |
+|            |                                 |                                                                                             |                                          |
+|            |                                 | -   Communication network                                                                   | -   Select node to highlight ego network |
+|            |                                 |                                                                                             |                                          |
+|            |                                 | -   Ego network                                                                             |                                          |
++------------+---------------------------------+---------------------------------------------------------------------------------------------+------------------------------------------+
+| 4          | Community Clusters              | -   Network graph colored by cluster                                                        | -   Filter by sub-type                   |
++------------+---------------------------------+---------------------------------------------------------------------------------------------+------------------------------------------+
+| 5          | Activity Timeline               | -   Timeline plot of events                                                                 | -   Filter by entity "Person"            |
+|            |                                 |                                                                                             |                                          |
+|            |                                 | -   Tooltip metadata: timestamp, partner, event type, confirmation status, evidence snippet | -   Hover for details                    |
++------------+---------------------------------+---------------------------------------------------------------------------------------------+------------------------------------------+
 
 # R Packages
+
++-----------------------+----------------------------------------------------------------------+
+| **Category**          | **Key Packages**                                                     |
++=======================+======================================================================+
+| Data Wrangling        | `tidyverse`, `dplyr`, `jsonlite`, `lubridate`, `stringr`, `SmartEDA` |
++-----------------------+----------------------------------------------------------------------+
+| Network Analysis      | `tidygraph`, `igraph`, `visNetwork`, `ggraph`, `widyr`               |
++-----------------------+----------------------------------------------------------------------+
+| Visualization         | `ggplot2`, `patchwork`, `ggrepel`, `ggridges`, `ggforce`, `scales`   |
++-----------------------+----------------------------------------------------------------------+
+| Interactive Elements  | `plotly`, `timevis`, `ggiraph`                                       |
++-----------------------+----------------------------------------------------------------------+
+| Shiny App Development | `shiny`, `shinydashboard`, `DT`, `shinyWidgets`, `shinyjs`           |
++-----------------------+----------------------------------------------------------------------+
 
 # Project Schedule
 
