@@ -124,5 +124,40 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "Meeting_Minutes/meeting_minutes.html#agenda-2",
+    "href": "Meeting_Minutes/meeting_minutes.html#agenda-2",
+    "title": "Meeting Minutes",
+    "section": "Agenda",
+    "text": "Agenda\n\nReview Prof. Kam’s feedback on project scope and storyboard requirements\nDiscuss selection of visuals and questions focus\nGitHub collaboration and version control guidance"
+  },
+  {
+    "objectID": "Meeting_Minutes/meeting_minutes.html#discussion-for-agenda-1-2",
+    "href": "Meeting_Minutes/meeting_minutes.html#discussion-for-agenda-1-2",
+    "title": "Meeting Minutes",
+    "section": "Discussion for Agenda 1",
+    "text": "Discussion for Agenda 1\nTrang wanted to confirm the points covered during the meeting with Prof. Kam. QiuYan and Yuquan mentioned the following discussion points:\nProf. Kam emphasized that for Take-Home 3 each team member should produce a hand-drawn storyboard sketch (inspired by the Walker et al. and decoding-chaos examples) detailing the UI components and user flow of our Shiny app, after which we will meet to compare and finalize the design. He advised that we need only include the most valuable, coherent visuals in the app—selecting key charts rather than embedding every chart from our previous work—and noted that the app should enable users to explore relationships interactively, not merely present answers. He clarified that it is acceptable to focus on just the three questions we have prioritized for this phase (with the fourth optional if time allows) and that we have discretion in structuring our content—combining related network graphs into a single tab or splitting them into subtabs as best suits clarity."
+  },
+  {
+    "objectID": "Meeting_Minutes/meeting_minutes.html#discussion-for-agenda-2-2",
+    "href": "Meeting_Minutes/meeting_minutes.html#discussion-for-agenda-2-2",
+    "title": "Meeting Minutes",
+    "section": "Discussion for Agenda 2",
+    "text": "Discussion for Agenda 2\nThe team agreed to focus exclusively on Questions 1, 2, and 4, as addressed in Take-Home Exercise 2. Our Shiny app will be built around these three questions. Question 3 will be deprioritized unless we finish the other three ahead of schedule."
+  },
+  {
+    "objectID": "Meeting_Minutes/meeting_minutes.html#discussion-for-agenda-3-2",
+    "href": "Meeting_Minutes/meeting_minutes.html#discussion-for-agenda-3-2",
+    "title": "Meeting Minutes",
+    "section": "Discussion for Agenda 3",
+    "text": "Discussion for Agenda 3\nYuquan also walked the team through the GitHub process: they agreed to notify teammates via WhatsApp before pushing updates, ensuring everyone saves and closes the Shiny app before pulling changes. He emphasized using RStudio’s history panel for version control and for rolling back if needed. To avoid overlap and minimize merge conflicts, each member will be responsible for a single tab aligned with their storyboard sketch: Yuquan will manage the “Temporal Patterns” tab, Trang the “Network Analysis” tab, and Qiuyan the “Illegal Activity Investigation” tab."
+  },
+  {
+    "objectID": "Meeting_Minutes/meeting_minutes.html#next-steps-2",
+    "href": "Meeting_Minutes/meeting_minutes.html#next-steps-2",
+    "title": "Meeting Minutes",
+    "section": "Next Steps",
+    "text": "Next Steps\nThe next meeting will be scheduled after completing Take-Home Exercise 3. Exact date will be confirmed via WhatsApp once everyone has submitted their sketches."
   }
 ]

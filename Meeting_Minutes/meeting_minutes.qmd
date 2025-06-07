@@ -134,10 +134,40 @@ After the discussion, the following division of labor for the Proposal and Meeti
 | Proposal Writing           | Trang and Yuquan |
 | Build the website & Github | Yuquan           |
 
-
-
 ## Next Steps
 
 The next meeting is scheduled for Thursday, 5 June 2025, at 6:30 PM.
 
 After the professor consultation, the team will proceed with finalizing the proposal and project development plan.
+
+# Meeting Minutes 3
+
+Date: 6 June 2025 (Friday)
+
+Time: 8:00 AM
+
+Attendees: Tai QiuYan, Li Yuquan, Do Quynh Trang
+
+## Agenda
+
+1.  Review Prof. Kam’s feedback on project scope and storyboard requirements
+2.  Discuss selection of visuals and questions focus
+3.  GitHub collaboration and version control guidance
+
+## Discussion for Agenda 1
+
+Trang wanted to confirm the points covered during the meeting with Prof. Kam. QiuYan and Yuquan mentioned the following discussion points:
+
+Prof. Kam emphasized that for Take-Home 3 each team member should produce a hand-drawn storyboard sketch (inspired by the Walker et al. and decoding-chaos examples) detailing the UI components and user flow of our Shiny app, after which we will meet to compare and finalize the design. He advised that we need only include the most valuable, coherent visuals in the app—selecting key charts rather than embedding every chart from our previous work—and noted that the app should enable users to explore relationships interactively, not merely present answers. He clarified that it is acceptable to focus on just the three questions we have prioritized for this phase (with the fourth optional if time allows) and that we have discretion in structuring our content—combining related network graphs into a single tab or splitting them into subtabs as best suits clarity.
+
+## Discussion for Agenda 2
+
+The team agreed to focus exclusively on Questions 1, 2, and 4, as addressed in Take-Home Exercise 2. Our Shiny app will be built around these three questions. Question 3 will be deprioritized unless we finish the other three ahead of schedule.
+
+## Discussion for Agenda 3
+
+Yuquan also walked the team through the GitHub process: they agreed to notify teammates via WhatsApp before pushing updates, ensuring everyone saves and closes the Shiny app before pulling changes. He emphasized using RStudio’s history panel for version control and for rolling back if needed. To avoid overlap and minimize merge conflicts, each member will be responsible for a single tab aligned with their storyboard sketch: Yuquan will manage the “Temporal Patterns” tab, Trang the “Network Analysis” tab, and Qiuyan the “Illegal Activity Investigation” tab.
+
+## Next Steps
+
+The next meeting will be scheduled after completing Take-Home Exercise 3. Exact date will be confirmed via WhatsApp once everyone has submitted their sketches.

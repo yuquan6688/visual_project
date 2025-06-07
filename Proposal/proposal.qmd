@@ -51,15 +51,11 @@ The accompanying `MC3_schema.json` file serves as a reference dictionary to supp
 
 ## Edge Attributes
 
-+------------------+----------------------------------------+---------------------------------------------------------+---------------------------------------------------------------+
-| **Source Node**  | **Entity**                             | **Event**                                               | **Relationship**                                              |
-+==================+========================================+=========================================================+===============================================================+
-| **Entity**       | —                                      | Entity initiates or participates in an Event            | Entity is a source of Relationship                            |
-+------------------+----------------------------------------+---------------------------------------------------------+---------------------------------------------------------------+
-| **Event**        | Event targets or involves an Entity    | **Communication Event** providing evidence for an Event | **Communication Event** providing evidence for a Relationship |
-+------------------+----------------------------------------+---------------------------------------------------------+---------------------------------------------------------------+
-| **Relationship** | Entity is the target of a relationship | —                                                       | —                                                             |
-+------------------+----------------------------------------+---------------------------------------------------------+---------------------------------------------------------------+
+| **Source Node** | **Entity** | **Event** | **Relationship** |
+|----|----|----|----|
+| **Entity** | — | Entity initiates or participates in an Event | Entity is a source of Relationship |
+| **Event** | Event targets or involves an Entity | **Communication Event** providing evidence for an Event | **Communication Event** providing evidence for a Relationship |
+| **Relationship** | Entity is the target of a relationship | — | — |
 
 # Methodology
 
@@ -113,19 +109,13 @@ The accompanying `MC3_schema.json` file serves as a reference dictionary to supp
 
 # R Packages
 
-+-----------------------+----------------------------------------------------------------------+
-| **Category**          | **Key Packages**                                                     |
-+=======================+======================================================================+
-| Data Wrangling        | `tidyverse`, `dplyr`, `jsonlite`, `lubridate`, `stringr`, `SmartEDA` |
-+-----------------------+----------------------------------------------------------------------+
-| Network Analysis      | `tidygraph`, `igraph`, `visNetwork`, `ggraph`, `widyr`               |
-+-----------------------+----------------------------------------------------------------------+
-| Visualization         | `ggplot2`, `patchwork`, `ggrepel`, `ggridges`, `ggforce`, `scales`   |
-+-----------------------+----------------------------------------------------------------------+
-| Interactive Elements  | `plotly`, `timevis`, `ggiraph`                                       |
-+-----------------------+----------------------------------------------------------------------+
-| Shiny App Development | `shiny`, `shinydashboard`, `DT`, `shinyWidgets`, `shinyjs`           |
-+-----------------------+----------------------------------------------------------------------+
+| **Category** | **Key Packages** |
+|----|----|
+| Data Wrangling | `tidyverse`, `dplyr`, `jsonlite`, `lubridate`, `stringr`, `SmartEDA` |
+| Network Analysis | `tidygraph`, `igraph`, `visNetwork`, `ggraph`, `widyr` |
+| Visualization | `ggplot2`, `patchwork`, `ggrepel`, `ggridges`, `ggforce`, `scales` |
+| Interactive Elements | `plotly`, `timevis`, `ggiraph` |
+| Shiny App Development | `shiny`, `shinydashboard`, `DT`, `shinyWidgets`, `shinyjs` |
 
 # Project Schedule
 
