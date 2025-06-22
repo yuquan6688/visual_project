@@ -171,3 +171,74 @@ Yuquan also walked the team through the GitHub process: they agreed to notify te
 ## Next Steps
 
 The next meeting will be scheduled after completing Take-Home Exercise 3. Exact date will be confirmed via WhatsApp once everyone has submitted their sketches.
+
+# Meeting Minutes 4
+
+Date: 14 June 2025 (Saturday)
+
+Time: 4:00pm
+
+Attendees: Tai QiuYan, Li Yuquan, Do Quynh Trang
+
+## Agenda
+
+1.  Selection of visuals from Take-Home Exercises 2 and 3 for integration into the final project
+2.  Discussion on the UI design and layout of the final Shiny App
+3.  Division of labour for final app development
+
+## Discussion for Agenda 1
+
+The meeting commenced with each member presenting their storyboard designs developed for Take-Home Exercise 3. After the presentations, Trang suggested that Yuquan retain his existing layout but enhance it by adding boxes above the EDA section to display key statistical summaries related to time-based analysis.
+
+Yuquan agreed with the proposal.
+
+Yuquan further proposed consolidating the network graphs created by all members into a single panel. This unified network panel would visualize the relationships among all entities and include filtering and selection features. The team agreed to this integrated approach, with Yuquan and Trang jointly responsible for its development.
+
+QiuYan noted that her storyboard for Question 4 currently only left with a timeline. She proposed enhancing it by adding visuals or a table to provide more details on Nadia Conti’s criminal activities. In response, Trang suggested including a table that displays conversational evidence alongside the timeline. QiuYan accepted this recommendation.
+
+## Discussion for Agenda 2
+
+Trang proposed modifying the Shiny App’s layout by placing the panel tabs at the top of the interface rather than on the left side.
+
+The team reached a consensus on this layout change, and all members agreed to update their respective codes accordingly. Additionally, Trang and Yuquan discussed the filtering options to be implemented in the network graph panel.
+
+## Discussion for Agenda 3
+
+The team agreed to divide the final app development according to the questions each member had worked on in Take-Home Exercise 2. Each member would be responsible for developing a separate panel, which would then be integrated into a single Shiny App: Panel 1 (Question 1): Yuquan Panel 2 (Question 2): Trang Panel 3 (Question 4): QiuYan
+
+## Next Steps
+
+The next meeting will be scheduled on 22/6/2025 1:00pm after everyone finishing their parts for shiny app.
+
+# Meeting Minutes 5
+
+Date: 22 June 2025 (Sunday)
+
+Time: 1:00pm
+
+Attendees: Tai QiuYan, Li Yuquan, Do Quynh Trang
+
+## Agenda
+
+1.  Review of individual panel designs for the Shiny App
+2.  Division of labour for project consolidation and final deliverables
+
+## Discussion for Agenda 1
+
+Yuquan presented two panels he had developed: Time-Based Analysis and Network Analysis. He demonstrated the filtering capabilities of the Time-Based panel, including options to view data by day, week, or specific dates. The Network Analysis panel includes selections for ego network order, network layout by centrality type, entity type, and influence category. A supporting table below the graph displays values for PageRank, betweenness, and degree centrality.
+
+Trang also developed two panels: Relationship Network and Clustering Analysis. The Relationship Network panel enables filtering by relationship sub-types and entity sub-types, with a table displaying centrality insights. The Clustering Analysis panel allows viewers to filter by entity sub-types, clustering method, and minimum communication frequency, with results similarly shown in a detailed table.
+
+Trang proposed combining her network panel with Yuquan’s, given the overlap in network visualizations. Yuquan agreed with this consolidation approach.
+
+QiuYan presented several interactive visualizations: a timeline, a temporal pattern heatmap, a bar chart of communication partners, and a content analysis table. These are organized into separate tabs and filtered by date range. Trang suggested combining the timeline with the content analysis side-by-side for better contextual understanding and integrating temporal and communication patterns into a unified view. QiuYan agreed to revise accordingly.
+
+Yuquan recommended that after all components are merged into the final Shiny App, the team should schedule a consultation with Prof. Kam for feedback and further refinement. The team concurred.
+
+## Discussion for Agenda 2
+
+Yuquan volunteered to consolidate all teammates’ code into the final Shiny App. Trang will source a suitable poster template via Canva and finalize the UI design for Shiny App. QiuYan will continue preparing the meeting minutes and finalize the project findings section for the group’s website.
+
+## Next Steps
+
+The next meeting will be scheduled for 24 June 2025 (Tuesday) following the consultation session with Prof. Kam.
