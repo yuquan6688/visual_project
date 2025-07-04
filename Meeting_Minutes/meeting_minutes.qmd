@@ -1,7 +1,7 @@
 ---
 title: "Meeting Minutes"
 description: ""
-format: html 
+format: html
 editor: visual
 execute: 
   eval: true
@@ -242,3 +242,27 @@ Yuquan volunteered to consolidate all teammates’ code into the final Shiny App
 ## Next Steps
 
 The next meeting will be scheduled for 24 June 2025 (Tuesday) following the consultation session with Prof. Kam.
+
+# **Meeting Minutes 6**
+
+Date: 2 July 2025 (Wednesday)
+
+Time: 10:00am
+
+Attendees: Tai QiuYan, Li Yuquan, Do Quynh Trang
+
+## **Agenda**
+
+1.  Finalize
+
+2.  The Shiny App
+
+3.  Division of labour for the poster and user guide
+
+## **Discussion for Agenda 1**
+
+Yuquan proposed that, given Prof. Kam’s assessment that the final section of the app adds little value, we remove it and base the poster solely on the first two tabs—time-based analysis and network analysis. Trang and QiuYan agreed. Trang also suggested adding an introductory page for the Shiny App, which QiuYan has agreed to write.
+
+## **Discussion for Agenda 2**
+
+For the poster, Trang offered to handle the data preparation as well as the relationship network and clustering components of the Shiny App design. Yuquan volunteered to develop the methodology section along with the time-based analysis and ego-network elements of the app. QiuYan will be responsible for the poster’s introduction, insights, and future work sections. For the user guide, Yuquan will cover the time-based analysis section, and Trang will address the network analysis.

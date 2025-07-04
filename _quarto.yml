@@ -9,28 +9,20 @@ website:
       - text: "Proposal"
         href: "Proposal/proposal.html"
 
-      - text: "Methodology"
-        href: ""
-     
-      - text: "Findings"
-        href:  ""
-      
       - text: "Poster"
-        href: ""
+        href: "Poster/poster.html"
      
       - text: "Meeting Minutes"
         href: "Meeting_Minutes/meeting_minutes.html"  
 
-
-    right:
-    
-      - text: "The Team"
-      - href:   ""  
-      
       - text: "Shiny App"
-      - href:   "" 
+        href: "https://quynhtrangdo.shinyapps.io/behind_the_reef/" 
+      
+      - text: "User Guide"
+        href: "user_guide/user_guide.html"
+      
       - text: "Github"
-      - href:   "" 
+        href:   "" 
 
     
 

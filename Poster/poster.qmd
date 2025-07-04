@@ -1,0 +1,6 @@
+---
+title: ""
+format: html
+---
+
+![](images/clipboard-1402514572.jpeg)
