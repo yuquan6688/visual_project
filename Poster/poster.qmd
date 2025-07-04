@@ -1,6 +1,9 @@
 ---
 title: ""
-format: html
+format: 
+  html:
+    toc: false
 ---
+### Click to view the poster in full size:
 
-![](images/clipboard-1402514572.jpeg)
+[![](images/clipboard-1402514572.jpeg){width="600px"}](images/clipboard-1402514572.jpeg)

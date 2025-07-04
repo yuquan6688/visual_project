@@ -11,14 +11,13 @@ toc: false
 
 </p>
 
-Our team developed a Shiny-based visual analytics application titled Behind the Reef to investigate hidden corruption and illicit networks in Oceanus’s tourism and environmental sectors. This project was built in response to the 2025 VAST Challenge – Mini-Challenge 3, based on intercepted radio communications and event metadata collected over two weeks by investigative journalist Clepper Jessen.
+**Behind the Reef** is a Shiny-based visual analytics application developed to investigate hidden corruption and illicit networks within Oceanus’s tourism and environmental sectors. Created in response to the 2025 VAST Challenge – Mini-Challenge 3, the project draws on two weeks of intercepted radio communications and event metadata collected by investigative journalist Clepper Jessen.
 
-The dataset, organized as a knowledge graph of entities, events, and relationships, is large and complex, making it difficult to trace meaningful patterns manually. Our application empowers users to uncover suspicious communication patterns, identify key influencers, and explore tightly connected subgroups within this intricate network.
+The dataset, structured as a knowledge graph of entities, events, and relationships, is both large and complex, making manual analysis impractical. Our application enables users to uncover suspicious communication patterns, pinpoint influential actors, and explore tightly connected subgroups within the network.
 
-Behind the Reef features two core components:
+The tool offers two main modules:
 
-1.  A Time-Based Analysis module that allows users to explore hourly or daily communication trends through interactive charts. Investigators can isolate peak activity windows, compare different weeks, and detect anomalies over time.
+1.  **Time-Based Analysis**: Interactive charts reveal daily and hourly communication trends, allowing users to isolate peak activity periods, compare across weeks, and identify temporal anomalies.
+2.  **Network Analysis Dashboard**: This interactive suite combines ego networks, relationship views, and clustering algorithms. Users can explore centrality metrics (PageRank, Betweenness, Degree), search for specific entities, and filter by relationship type or network density to surface key players and covert collaborations.
 
-2.  An interactive network analysis dashboard that combines ego-network, relationship-based, and clustering visualizations. Users can explore influence metrics such as PageRank, Betweenness, and Degree; search for specific entities; and filter by relationship type or subnetwork density—enabling the discovery of power brokers, covert coordinators, and high-risk clusters.
-
-By blending temporal and structural analysis in an intuitive interface, our app offers a scalable investigative tool that helps make sense of dense communication data, allowing analysts to “see beneath the surface” and expose what lies behind the reef.
+By blending temporal and structural insights in an intuitive interface, *Behind the Reef* provides a scalable tool for investigative analysis—helping users “see beneath the surface” and reveal what truly lies behind the reef.

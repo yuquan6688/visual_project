@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Visual Project G1"
+  title: "Behind The Reef"
   favicon: images/logo1.png
   navbar:
     left:

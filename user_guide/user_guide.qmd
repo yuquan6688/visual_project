@@ -18,19 +18,19 @@ This page is the introduction section of our group’s Shiny App, providing a br
 
 ![](images/clipboard-1065791938.png)
 
-\[1\] Tab for introduction page
+**\[1\]** Tab for introduction page
 
 -   Click to navigate to the Introduction page.
 
-\[2\] Tab for Time-Based Analysis page
+**\[2\]** Tab for Time-Based Analysis page
 
 -   Click to navigate to the Time-Based Analysis page.
 
-\[3\] Tab for Network Analysis page
+**\[3\]** Tab for Network Analysis page
 
 -   Click to navigate to the Network Analysis page.
 
-\[4\] Content for introduction
+**\[4\]** Content for introduction
 
 # 2. Time-based Analysis
 
@@ -40,37 +40,37 @@ This section of the visualization focuses on analyzing the overall distribution 
 
 ![](images/clipboard-3697631753.png)
 
-\[1\] Overall Mode Selection
+**\[1\]** Overall Mode Selection
 
--    Allows switching between weekly or daily mode, affecting all charts.
+-   Allows switching between weekly or daily mode, affecting all charts.
 
-\[2\] Date Selection
+**\[2\]** Date Selection
 
--    In daily mode, select specific dates, which applies to all charts.
+-   In daily mode, select specific dates, which applies to all charts.
 
-\[3\] Chart Type Selection
+**\[3\]** Chart Type Selection
 
 -   Applies to the upper line chart; choose to view either the communication trend or the communication density.
 
-\[4\] Time Unit Selection
+**\[4\]** Time Unit Selection
 
 -   Applies to the upper line chart; choose whether the chart is based on hourly or daily units.
 
-\[5\] Line Chart
+**\[5\]** Line Chart
 
 -   Displays statistical indicators of overall communication activity, with options for different time units and chart types.
 
-\[6\] Calendar Heatmap
+**\[6\]** Calendar Heatmap
 
 -   Shows the number of communications for each time slot on each day.
 
-\[7\] Ridge Plot
+**\[7\]** Ridge Plot
 
 -   Shows the distribution of communication times for each day
 
-\[8\] Week Selection
+**\[8\]** Week Selection
 
--    In weekly mode, allows choosing between ALL, Week 1, or Week 2.\
+-   In weekly mode, allows choosing between ALL, Week 1, or Week 2.\
 
 # 3. Network Analysis
 
